@@ -25,6 +25,5 @@ __pycache__/
 build/
 
 # Env
-*.env
 .env
 .env.*
