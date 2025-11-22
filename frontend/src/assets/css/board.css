@@ -1,0 +1,5 @@
+small[role=alert] {
+    font-size: 12px;
+    font-weight: 1000000;
+    color: red;
+}

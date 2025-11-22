@@ -1,0 +1,34 @@
+.content .actions {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    margin-top: 16px;
+}
+
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 16px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color .12s ease, transform .08s ease;
+    user-select: none;
+    border: none;
+}
+
+.home-btn {
+    background-color: #0066cc;
+}
+
+.add-btn {
+    background-color: #28a745;
+}
+
+.btn:hover {
+    filter: brightness(0.95);
+    transform: translateY(-1px);
+}
