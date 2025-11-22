@@ -28,7 +28,7 @@ GitHub 브랜치 전략과 AI 워크플로우를 함께 실험하는 것을 목�
   - 영화 목록/상세/예매 UI, AI 챗봇 인터페이스
 - **python-agent/**  
   - FastAPI + Google ADK Agent  
-  - LLM 호출, 도구(tool) 오케스트레이션  
+  - LLM 호출, 도구(tool)을 이용한 MCP 
   - 향후 Vector DB 연동 예정
 - **docs/**  
   - 시스템 아키텍처, ERD, 시퀀스 다이어그램 등 문서
@@ -41,7 +41,7 @@ GitHub 브랜치 전략과 AI 워크플로우를 함께 실험하는 것을 목�
 - **Frontend:** React
 - **AI / Agent:** Python, FastAPI, Google ADK (Gemini 기반)
 - **DB:** (개발 중 – MySQL 또는 MariaDB 예정)
-- **협업 / 관리:** GitHub Issues, Projects, Branch 전략(main / dev / feature-*)
+- **협업 / 관리:** GitHub Issues, Projects, Branch 전략(main / dev / feature-*) - GITHUB 연습
 
 ---
 
