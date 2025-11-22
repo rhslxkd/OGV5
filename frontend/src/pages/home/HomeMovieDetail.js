@@ -1,9 +1,8 @@
 import { useState, useEffect } from "react";
 import { useParams, useNavigate } from "react-router-dom";
-import { fetcher } from "../lib/fetcher";
-import useMe from "../hooks/useMe";
-import seatPicker from "../components/seatPicker";
-import SeatPicker from "../components/seatPicker";
+import {fetcher} from "../../lib/fetcher";
+import useMe from "../../hooks/useMe";
+import SeatPicker from "../../components/seatPicker";
 
 function HomeMovieDetail() {
     const navigate = useNavigate();

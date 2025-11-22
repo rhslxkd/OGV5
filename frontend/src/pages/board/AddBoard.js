@@ -2,7 +2,7 @@ import {useState, useEffect} from "react";
 import {useNavigate} from "react-router-dom";
 import {fetcher} from "../../lib/fetcher";
 import {useForm} from "react-hook-form";
-import "../assets/css/board.css";
+import "../../assets/css/board.css"
 import useMe from "../../hooks/useMe";
 
 function AddBoard() {
